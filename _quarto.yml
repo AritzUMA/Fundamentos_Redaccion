@@ -4,24 +4,16 @@ project:
 
 website:
   title: "Fundamentos de Redacción Audiovisual"
-  description: "Recursos docentes de edición de vídeo con DaVinci Resolve y Adobe Premiere Pro"
+  description: "Recursos docentes de edición de vídeo"
   navbar:
-    background: dark
-    foreground: light
-    title: "🎬 Edición de Vídeo"
+    background: light
+    foreground: dark
+    title: "Fundamentos de Redacción Audiovisual"
     left:
       - text: "Inicio"
         href: index.qmd
-      - text: "DaVinci Resolve"
-        menu:
-          - text: "Introducción e interfaz"
-            href: davinci/intro.qmd
-          - text: "Práctica 1 — Anuncio BMW"
-            href: davinci/practica1.qmd
-      - text: "Adobe Premiere"
-        menu:
-          - text: "Introducción e interfaz"
-            href: premiere/intro.qmd
+      - text: "Práctica 1 — Anuncio BMW"
+        href: davinci/practica1.qmd
       - text: "Recursos"
         href: recursos.qmd
     right:
@@ -37,9 +29,7 @@ format:
   html:
     theme: cosmo
     css: styles.css
-    toc: true
-    toc-depth: 3
-    toc-title: "En esta página"
+    toc: false
     smooth-scroll: true
     highlight-style: github
     link-external-newwindow: true

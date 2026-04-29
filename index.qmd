@@ -1,22 +1,17 @@
 ---
-title: "Edición de Vídeo"
-subtitle: "Recursos docentes · DaVinci Resolve & Adobe Premiere Pro"
+title: "Fundamentos de Redacción Audiovisual"
 page-layout: full
 toc: false
 ---
 
 ```{=html}
-<div style="background: linear-gradient(135deg, #1a1d27 0%, #0f1117 100%); border: 1px solid #2e3347; border-top: 3px solid #e8a020; border-radius: 8px; padding: 3rem 3.5rem; margin-bottom: 3rem;">
-  <p style="color: #e8a020; font-size: 0.8rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; margin-bottom: 0.8rem;">🎬 RECURSOS DOCENTES</p>
-  <h1 style="font-family: 'Playfair Display', serif; font-size: 2.8rem; color: #f0f0f0; margin-bottom: 0.6rem; line-height: 1.15;">Edición de Vídeo</h1>
-  <p style="font-size: 1.15rem; color: #9aa0b4; max-width: 600px; line-height: 1.7; margin-bottom: 1.5rem;">
-    Materiales, prácticas y recursos para las clases de edición de vídeo con 
-    <strong style="color:#f0f0f0;">DaVinci Resolve 19</strong> y 
-    <strong style="color:#f0f0f0;">Adobe Premiere Pro</strong>.
-  </p>
-  <div style="display: flex; gap: 1rem; flex-wrap: wrap;">
-    <a href="davinci/practica1.html" style="background: #e8a020; color: #000; font-weight: 700; padding: 0.65rem 1.4rem; border-radius: 6px; text-decoration: none; font-size: 0.9rem;">→ Práctica 1 — Anuncio BMW</a>
-    <a href="davinci/intro.html" style="background: transparent; color: #e8a020; border: 1px solid #e8a020; font-weight: 600; padding: 0.65rem 1.4rem; border-radius: 6px; text-decoration: none; font-size: 0.9rem;">Intro a DaVinci</a>
+<div class="page-hero">
+  <div class="label">Recursos docentes</div>
+  <h1>Edición<br>de Vídeo</h1>
+  <p class="subtitle">Materiales y prácticas para las clases de edición con DaVinci Resolve 19 y Adobe Premiere Pro.</p>
+  <div style="display:flex; gap:1rem; margin-top:2rem; flex-wrap:wrap;">
+    <a href="davinci/practica1.html" class="btn-primary-custom">Práctica 1 — Anuncio BMW</a>
+    <a href="davinci/intro.html" class="btn-outline-custom">Intro a DaVinci</a>
   </div>
 </div>
 ```
@@ -27,11 +22,10 @@ toc: false
 
 ::: {.column width="48%"}
 ```{=html}
-<div style="background:#1a1d27; border:1px solid #2e3347; border-radius:8px; padding:1.6rem; height:100%;">
-  <div style="font-size:2rem; margin-bottom:0.8rem;">🎞️</div>
-  <h3 style="color:#e8a020; margin:0 0 0.5rem 0; font-size:1.1rem;">DaVinci Resolve 19</h3>
-  <p style="color:#9aa0b4; font-size:0.9rem; margin-bottom:1rem; line-height:1.6;">Software profesional de edición, corrección de color y audio. Versión gratuita completa para uso en clase.</p>
-  <ul style="color:#f0f0f0; font-size:0.88rem; padding-left:1.2rem; margin:0;">
+<div class="prog-card">
+  <div class="prog-title">DaVinci Resolve 19</div>
+  <p class="prog-desc">Software profesional de edición, corrección de color y audio. La versión gratuita es completamente funcional.</p>
+  <ul>
     <li><a href="davinci/intro.html">Introducción e interfaz</a></li>
     <li><a href="davinci/practica1.html">Práctica 1 — Anuncio BMW</a></li>
   </ul>
@@ -44,11 +38,10 @@ toc: false
 
 ::: {.column width="48%"}
 ```{=html}
-<div style="background:#1a1d27; border:1px solid #2e3347; border-radius:8px; padding:1.6rem; height:100%;">
-  <div style="font-size:2rem; margin-bottom:0.8rem;">🎨</div>
-  <h3 style="color:#e8a020; margin:0 0 0.5rem 0; font-size:1.1rem;">Adobe Premiere Pro</h3>
-  <p style="color:#9aa0b4; font-size:0.9rem; margin-bottom:1rem; line-height:1.6;">El estándar de la industria en edición de vídeo, integrado con el ecosistema de Adobe Creative Cloud.</p>
-  <ul style="color:#f0f0f0; font-size:0.88rem; padding-left:1.2rem; margin:0;">
+<div class="prog-card">
+  <div class="prog-title">Adobe Premiere Pro</div>
+  <p class="prog-desc">Estándar de la industria en edición de vídeo. Integrado con el ecosistema Adobe Creative Cloud.</p>
+  <ul>
     <li><a href="premiere/intro.html">Introducción e interfaz</a></li>
   </ul>
 </div>
@@ -57,18 +50,23 @@ toc: false
 
 :::
 
-## Calendario de prácticas
+## Calendario — Práctica 1
 
-| Semana | Contenido | Entrega |
-|--------|-----------|---------|
-| Semana 1 | Explicación y demostración — Anuncio BMW | — |
-| Semana 2 | Trabajo en clase | — |
-| Semana 3 | Finalización y entrega | **Exportar a 1080p25** |
+| Semana | Sesión | Contenido |
+|--------|--------|-----------|
+| Semana 1 | Clase | Explicación y demostración |
+| Semana 2 | Trabajo | Montaje en clase |
+| Semana 3 | Entrega | Exportación a 1080p25 |
 
-## Cómo usar estos materiales
+## Material
 
-Esta web contiene los enunciados detallados de cada práctica, los recursos necesarios (material audiovisual, música) y los criterios de evaluación. Los archivos de vídeo y audio se distribuyen por separado a través de la carpeta de la asignatura en los ordenadores del aula.
+Los archivos están en la carpeta de la asignatura en los ordenadores del aula:
+
+- `CAR CHASE - Car Exteriors.mp4`
+- `CAR CHASE - Car Interiors_1.mp4`
+- `Car Chase.m4a`
+- `Cars_Logos_-_BMW.jpg`
 
 ::: {.callout-note}
-Los materiales de vídeo (brutos de interior y exterior del coche, música en formato m4a) se copiarán en la carpeta de la asignatura antes de la primera sesión de trabajo.
+Si `Car Chase.m4a` no se importa, convertirlo a MP3 con VLC. Ver [Recursos](recursos.html) para instrucciones.
 :::

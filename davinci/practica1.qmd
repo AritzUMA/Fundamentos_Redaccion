@@ -1,0 +1,452 @@
+---
+title: "Práctica 1 — Anuncio de Coches BMW"
+page-layout: full
+toc: false
+---
+
+```{=html}
+<style>
+.practica-header {
+  padding: 3rem 0 2rem 0;
+  border-bottom: 1px solid var(--border);
+  margin-bottom: 2.5rem;
+}
+.practica-header .label {
+  font-family: 'DM Sans', sans-serif;
+  font-size: 0.7rem;
+  font-weight: 500;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: var(--text-xlight, #9E9890);
+  margin-bottom: 1rem;
+}
+.practica-header h1 {
+  font-family: 'Cormorant Garamond', Georgia, serif;
+  font-size: 2.8rem;
+  font-weight: 300;
+  margin-bottom: 0.5rem;
+  color: var(--text, #1C1C1A);
+}
+.practica-header .meta {
+  font-family: 'DM Sans', sans-serif;
+  font-size: 0.75rem;
+  color: var(--text-xlight, #9E9890);
+  letter-spacing: 0.04em;
+  display: flex;
+  gap: 2rem;
+  flex-wrap: wrap;
+  margin-top: 1rem;
+}
+
+/* Tabs */
+.tab-bar {
+  display: flex;
+  border-bottom: 1px solid var(--border, #DDD6C8);
+  margin-bottom: 2rem;
+  gap: 0;
+}
+.tab-btn {
+  font-family: 'DM Sans', sans-serif;
+  font-size: 0.72rem;
+  font-weight: 500;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--text-xlight, #9E9890);
+  background: none;
+  border: none;
+  border-bottom: 2px solid transparent;
+  padding: 0.8rem 1.6rem;
+  cursor: pointer;
+  transition: all 0.2s;
+  margin-bottom: -1px;
+}
+.tab-btn.active {
+  color: var(--text, #1C1C1A);
+  border-bottom-color: var(--text, #1C1C1A);
+}
+.tab-btn:hover { color: var(--text, #1C1C1A); }
+
+.tab-panel { display: none; }
+.tab-panel.active { display: block; }
+
+/* Pasos */
+.paso {
+  border-bottom: 1px solid var(--border, #DDD6C8);
+  padding: 2rem 0;
+}
+.paso:last-child { border-bottom: none; }
+
+.paso-num {
+  font-family: 'DM Sans', sans-serif;
+  font-size: 0.68rem;
+  font-weight: 500;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--text-xlight, #9E9890);
+  margin-bottom: 0.4rem;
+}
+
+.paso h3 {
+  font-family: 'Cormorant Garamond', Georgia, serif !important;
+  font-size: 1.4rem !important;
+  font-weight: 500 !important;
+  letter-spacing: 0 !important;
+  text-transform: none !important;
+  color: var(--text, #1C1C1A) !important;
+  margin: 0 0 1rem 0 !important;
+}
+
+.paso ol, .paso ul {
+  font-family: 'DM Sans', sans-serif;
+  font-size: 0.88rem;
+  color: var(--text-light, #6B6560);
+  line-height: 1.9;
+  padding-left: 1.2rem;
+  margin: 0 0 1rem 0;
+}
+
+.paso code {
+  font-family: 'DM Mono', monospace;
+  font-size: 0.8rem;
+  background: var(--cream-dark, #EDE6D6);
+  padding: 0.1em 0.35em;
+  border-radius: 2px;
+  color: var(--text, #1C1C1A);
+}
+
+.nota {
+  font-family: 'DM Sans', sans-serif;
+  font-size: 0.82rem;
+  color: var(--text-light, #6B6560);
+  border-left: 2px solid var(--warm-gray, #C8C0B0);
+  padding: 0.7rem 1rem;
+  margin-top: 1rem;
+  background: var(--cream-dark, #EDE6D6);
+}
+
+/* Materiales */
+.tabla-mat {
+  width: 100%;
+  border-collapse: collapse;
+  font-family: 'DM Sans', sans-serif;
+  font-size: 0.84rem;
+  margin: 1.5rem 0;
+}
+.tabla-mat th {
+  font-size: 0.68rem;
+  font-weight: 500;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--text-xlight, #9E9890);
+  border-bottom: 1px solid var(--border, #DDD6C8);
+  padding: 0.5rem 0.8rem;
+  text-align: left;
+}
+.tabla-mat td {
+  padding: 0.7rem 0.8rem;
+  border-bottom: 1px solid var(--border, #DDD6C8);
+  color: var(--text, #1C1C1A);
+  vertical-align: top;
+}
+.tabla-mat tr:last-child td { border-bottom: none; }
+
+/* Checklist */
+.checklist { list-style: none; padding: 0; margin: 1.2rem 0; font-family: 'DM Sans', sans-serif; font-size: 0.88rem; }
+.checklist li { padding: 0.55rem 0 0.55rem 1.6rem; position: relative; border-bottom: 1px solid var(--border, #DDD6C8); color: var(--text, #1C1C1A); }
+.checklist li:last-child { border-bottom: none; }
+.checklist li::before { content: "—"; position: absolute; left: 0; color: var(--warm-gray, #C8C0B0); }
+
+.section-label {
+  font-family: 'DM Sans', sans-serif;
+  font-size: 0.7rem;
+  font-weight: 500;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: var(--text-xlight, #9E9890);
+  margin: 3rem 0 1.5rem 0;
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid var(--border, #DDD6C8);
+}
+</style>
+
+<div class="practica-header">
+  <div class="label">Práctica 1</div>
+  <h1>Anuncio de Coches BMW</h1>
+  <div class="meta">
+    <span>Duración: ~30 segundos</span>
+    <span>Entrega: semana 3</span>
+    <span>Formato: MP4 · 1080p · 25fps</span>
+  </div>
+</div>
+
+<!-- Materiales -->
+<div class="section-label">Material</div>
+
+<table class="tabla-mat">
+  <thead>
+    <tr>
+      <th>Archivo</th>
+      <th>Tipo</th>
+      <th>Uso</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><code>CAR CHASE - Car Exteriors.mp4</code></td>
+      <td>Vídeo · 1.68 GB</td>
+      <td>Brutos exterior — seleccionar los mejores planos</td>
+    </tr>
+    <tr>
+      <td><code>CAR CHASE - Car Interiors_1.mp4</code></td>
+      <td>Vídeo · 685 MB</td>
+      <td>Brutos interior — salpicadero, volante, detalles</td>
+    </tr>
+    <tr>
+      <td><code>Car Chase.m4a</code></td>
+      <td>Audio · 368 KB</td>
+      <td>Música — acortarla a ~30 segundos</td>
+    </tr>
+    <tr>
+      <td><code>Cars_Logos_-_BMW.jpg</code></td>
+      <td>Imagen · 83 KB</td>
+      <td>Logo BMW para el packshot final</td>
+    </tr>
+  </tbody>
+</table>
+
+<!-- Tabs -->
+<div class="section-label">Pasos según programa</div>
+
+<div class="tab-bar">
+  <button class="tab-btn active" onclick="switchTab('davinci', this)">DaVinci Resolve 19</button>
+  <button class="tab-btn" onclick="switchTab('premiere', this)">Adobe Premiere Pro</button>
+</div>
+
+<!-- ======= DAVINCI ======= -->
+<div id="tab-davinci" class="tab-panel active">
+
+  <div class="paso">
+    <div class="paso-num">Paso 1</div>
+    <h3>Crear el proyecto</h3>
+    <ol>
+      <li>Abrir DaVinci Resolve — aparece el Project Manager</li>
+      <li>Clic en New Project — nombre: <code>P1_BMW_TuNombre</code></li>
+      <li>File > Project Settings — verificar 1920×1080 y 25 fps</li>
+      <li>Ir a la página Media (primer icono de la barra inferior)</li>
+      <li>Navegar hasta la carpeta de la asignatura e importar los 4 archivos al Media Pool</li>
+      <li>Clic derecho en el Media Pool — Add Bin — crear carpetas: Exterior, Interior, Audio, Graficos</li>
+    </ol>
+  </div>
+
+  <div class="paso">
+    <div class="paso-num">Paso 2</div>
+    <h3>Revisar y seleccionar planos</h3>
+    <ol>
+      <li>Doble clic en <code>CAR CHASE - Car Exteriors.mp4</code> — se abre en el Viewer</li>
+      <li>Reproducir y marcar los mejores momentos con I (entrada) y O (salida)</li>
+      <li>Repetir con <code>CAR CHASE - Car Interiors_1.mp4</code></li>
+      <li>Combinar planos de exterior e interior para dar variedad al montaje</li>
+    </ol>
+  </div>
+
+  <div class="paso">
+    <div class="paso-num">Paso 3</div>
+    <h3>Montar el timeline</h3>
+    <ol>
+      <li>Ir a la página Edit</li>
+      <li>Timeline > Create New Timeline — nombre: <code>Anuncio_BMW</code></li>
+      <li>Arrastrar <code>Car Chase.m4a</code> a la pista de audio — sirve de guía de ritmo</li>
+      <li>Acortar la música a ~30 segundos con la herramienta Blade (B) — cortar y borrar el resto</li>
+      <li>Colocar los planos de vídeo encima, cortando al ritmo de la música</li>
+      <li>El packshot con <code>Cars_Logos_-_BMW.jpg</code> va al final del timeline</li>
+    </ol>
+    <div class="nota">Escuchar la música y cortar los planos cuando cambia el beat. Los cortes al ritmo dan energía al anuncio.</div>
+  </div>
+
+  <div class="paso">
+    <div class="paso-num">Paso 4 — Efecto principal</div>
+    <h3>Destello animado sobre el logo BMW</h3>
+    <ol>
+      <li>Seleccionar el clip <code>Cars_Logos_-_BMW.jpg</code> en el timeline</li>
+      <li>Abrir el panel Effects (botón arriba a la derecha)</li>
+      <li>Buscar Glint o Lens Flare — arrastrar el efecto sobre el clip</li>
+      <li>Abrir el Inspector (panel derecho)</li>
+      <li>Situar el cabezal al inicio del clip del logo</li>
+      <li>Clic en el icono de diamante junto al parámetro Position — se activa</li>
+      <li>Mover el cabezal a la mitad del clip — cambiar la posición — se crea un keyframe</li>
+      <li>Mover al final — cambiar la posición de nuevo — tercer keyframe</li>
+      <li>Al reproducir, el destello recorrerá las letras del logo</li>
+    </ol>
+    <div class="nota">El destello queda mejor si entra desde fuera del encuadre, pasa por encima de las letras BMW y sale por el otro lado. Usar al menos 3 keyframes: inicio fuera, centro sobre el logo, final fuera.</div>
+  </div>
+
+  <div class="paso">
+    <div class="paso-num">Paso 5</div>
+    <h3>Crédito con el nombre del alumno</h3>
+    <ol>
+      <li>En el panel Effects, buscar Text+</li>
+      <li>Arrastrar al final del timeline, después del packshot</li>
+      <li>En el Inspector, escribir el nombre</li>
+      <li>Ajustar fuente, tamaño y posición — estilo crédito, centrado, blanco</li>
+      <li>Duración: 3-4 segundos</li>
+    </ol>
+  </div>
+
+  <div class="paso">
+    <div class="paso-num">Paso 6 — Entrega</div>
+    <h3>Exportar desde Deliver</h3>
+    <ol>
+      <li>Ir a la página Deliver (último icono de la barra inferior)</li>
+      <li>En Render Settings: Format MP4 · Codec H.264 · Resolution 1920×1080 · Frame rate 25</li>
+      <li>Si el ordenador va lento: bajar la resolución a 1280×720</li>
+      <li>Nombre del archivo: <code>P1_BMW_TuNombre.mp4</code></li>
+      <li>Add to Render Queue — Render All</li>
+    </ol>
+  </div>
+
+</div>
+
+<!-- ======= PREMIERE ======= -->
+<div id="tab-premiere" class="tab-panel">
+
+  <div class="paso">
+    <div class="paso-num">Paso 1</div>
+    <h3>Crear el proyecto</h3>
+    <ol>
+      <li>Abrir Adobe Premiere Pro — aparece la pantalla de inicio</li>
+      <li>New Project — nombre: <code>P1_BMW_TuNombre</code> — elegir carpeta de destino</li>
+      <li>En el panel Project (abajo a la izquierda), clic derecho — New Bin — crear carpetas: Exterior, Interior, Audio, Graficos</li>
+      <li>File > Import (Ctrl+I) — seleccionar los 4 archivos de la asignatura — Open</li>
+      <li>Distribuir cada archivo en su carpeta correspondiente</li>
+    </ol>
+  </div>
+
+  <div class="paso">
+    <div class="paso-num">Paso 2</div>
+    <h3>Crear la secuencia y revisar planos</h3>
+    <ol>
+      <li>File > New > Sequence — en la pestaña Settings: Frame Size 1920×1080 · Timebase 25 fps</li>
+      <li>O bien: arrastrar <code>CAR CHASE - Car Exteriors.mp4</code> al panel Timeline — Premiere pregunta si adaptar la secuencia al clip — clic en Keep existing settings</li>
+      <li>Doble clic en cada clip en el panel Project — se abre en el Source Monitor</li>
+      <li>Marcar entrada con I y salida con O en los mejores momentos</li>
+      <li>Revisar los dos archivos de vídeo antes de montar</li>
+    </ol>
+  </div>
+
+  <div class="paso">
+    <div class="paso-num">Paso 3</div>
+    <h3>Montar el timeline</h3>
+    <ol>
+      <li>Arrastrar <code>Car Chase.m4a</code> a la pista A1 del timeline — sirve de guía de ritmo</li>
+      <li>Acortar la música a ~30 segundos: herramienta Razor (C) — cortar — borrar el resto con Delete</li>
+      <li>Colocar los planos de vídeo en la pista V1, cortando al ritmo de la música</li>
+      <li>Arrastrar <code>Cars_Logos_-_BMW.jpg</code> al final del timeline como packshot</li>
+      <li>Ajustar la duración del logo: clic derecho — Speed/Duration — poner 4-5 segundos</li>
+    </ol>
+    <div class="nota">Escuchar la música y cortar los planos cuando cambia el beat. Los cortes al ritmo dan energía al anuncio.</div>
+  </div>
+
+  <div class="paso">
+    <div class="paso-num">Paso 4 — Efecto principal</div>
+    <h3>Destello animado sobre el logo BMW</h3>
+    <ol>
+      <li>Seleccionar el clip <code>Cars_Logos_-_BMW.jpg</code> en el timeline</li>
+      <li>Abrir el panel Effects (Window > Effects o Shift+7)</li>
+      <li>Buscar Lens Flare en Video Effects > Generate — arrastrar sobre el clip del logo</li>
+      <li>Abrir el panel Effect Controls (Shift+5)</li>
+      <li>Situar el cabezal al inicio del clip del logo</li>
+      <li>Clic en el cronómetro junto a Flare Center — se activa la animación</li>
+      <li>Mover el cabezal a la mitad — cambiar la posición del Flare Center — se crea un keyframe</li>
+      <li>Mover al final — cambiar la posición de nuevo — tercer keyframe</li>
+      <li>Al reproducir, el destello recorrerá las letras del logo</li>
+    </ol>
+    <div class="nota">El destello queda mejor si entra desde fuera del encuadre, pasa por encima de las letras BMW y sale por el otro lado. Usar al menos 3 keyframes: inicio fuera, centro sobre el logo, final fuera.</div>
+  </div>
+
+  <div class="paso">
+    <div class="paso-num">Paso 5</div>
+    <h3>Crédito con el nombre del alumno</h3>
+    <ol>
+      <li>File > New > Legacy Title (o usar Essential Graphics: Window > Essential Graphics)</li>
+      <li>Con Essential Graphics: en el panel, clic en New Layer > Text</li>
+      <li>Escribir el nombre en el Viewer</li>
+      <li>Ajustar fuente, tamaño y posición — estilo crédito, centrado, blanco</li>
+      <li>Arrastrar el texto al final del timeline, después del packshot</li>
+      <li>Duración: 3-4 segundos</li>
+    </ol>
+  </div>
+
+  <div class="paso">
+    <div class="paso-num">Paso 6 — Entrega</div>
+    <h3>Exportar con Media Encoder</h3>
+    <ol>
+      <li>File > Export > Media (Ctrl+M)</li>
+      <li>En la ventana de exportación: Format H.264 · Preset Match Source - High Bitrate</li>
+      <li>Verificar que la resolución es 1920×1080 y el frame rate 25</li>
+      <li>Si el ordenador va lento: cambiar la resolución a 1280×720 en la pestaña Video</li>
+      <li>Output Name: <code>P1_BMW_TuNombre.mp4</code> — elegir carpeta</li>
+      <li>Clic en Export (exporta directamente) o Queue (abre Adobe Media Encoder)</li>
+    </ol>
+  </div>
+
+</div>
+
+<!-- Criterios -->
+<div class="section-label">Criterios de evaluación</div>
+
+<ul class="checklist">
+  <li>El anuncio dura aproximadamente 30 segundos</li>
+  <li>Se usan planos de exterior e interior del coche</li>
+  <li>El montaje sigue el ritmo de la música</li>
+  <li>El logo BMW aparece al final como packshot</li>
+  <li>El efecto de destello está aplicado sobre el logo</li>
+  <li>El destello se mueve con keyframes de posición</li>
+  <li>Aparece el crédito con el nombre del alumno</li>
+  <li>Exportado en MP4, 1080p25 o 720p25</li>
+</ul>
+
+<!-- Problemas -->
+<div class="section-label">Problemas frecuentes</div>
+
+<table class="tabla-mat">
+  <thead>
+    <tr><th>Problema</th><th>DaVinci</th><th>Premiere</th></tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><code>Car Chase.m4a</code> no se importa</td>
+      <td>Convertir a MP3 con VLC</td>
+      <td>Convertir a MP3 con VLC</td>
+    </tr>
+    <tr>
+      <td>Los vídeos van lentos</td>
+      <td>Clic derecho en clip — Generate Optimized Media</td>
+      <td>Clic derecho en clip — Proxy — Create Proxies</td>
+    </tr>
+    <tr>
+      <td>No encuentro el efecto de destello</td>
+      <td>Buscar Glint, Lens Flare o Light Ray en Effects</td>
+      <td>Buscar Lens Flare en Video Effects > Generate</td>
+    </tr>
+    <tr>
+      <td>El render falla o tarda demasiado</td>
+      <td>Exportar en 720p en lugar de 1080p</td>
+      <td>Cambiar resolución a 720p en la pestaña Video</td>
+    </tr>
+    <tr>
+      <td>Los keyframes no se crean</td>
+      <td>Verificar que el icono de diamante está activo</td>
+      <td>Verificar que el cronómetro está activo (azul)</td>
+    </tr>
+  </tbody>
+</table>
+
+<script>
+function switchTab(tab, btn) {
+  document.querySelectorAll('.tab-panel').forEach(p => p.classList.remove('active'));
+  document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
+  document.getElementById('tab-' + tab).classList.add('active');
+  btn.classList.add('active');
+}
+</script>
+```
