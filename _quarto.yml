@@ -27,8 +27,9 @@ website:
 
 format:
   html:
-    theme: cosmo
-    css: styles.css
+    theme:
+      - cosmo
+      - styles.css
     toc: false
     smooth-scroll: true
     highlight-style: github
