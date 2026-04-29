@@ -1,72 +1,58 @@
 ---
-title: "Fundamentos de Redacción Audiovisual"
-page-layout: full
+title: "Edición de Vídeo"
+subtitle: "Recursos docentes para las clases de DaVinci Resolve 19 y Adobe Premiere Pro"
 toc: false
 ---
 
-```{=html}
-<div class="page-hero">
-  <div class="label">Recursos docentes</div>
-  <h1>Edición<br>de Vídeo</h1>
-  <p class="subtitle">Materiales y prácticas para las clases de edición con DaVinci Resolve 19 y Adobe Premiere Pro.</p>
-  <div style="display:flex; gap:1rem; margin-top:2rem; flex-wrap:wrap;">
-    <a href="davinci/practica1.html" class="btn-primary-custom">Práctica 1 — Anuncio BMW</a>
-    <a href="davinci/intro.html" class="btn-outline-custom">Intro a DaVinci</a>
-  </div>
-</div>
-```
+Estos materiales acompañan las clases prácticas de edición de vídeo. Aquí encontrarás los enunciados de cada práctica, los pasos detallados para los dos programas que usamos en clase, y los recursos necesarios para completar cada ejercicio.
 
-## Programas
+---
 
-::: {.columns}
+## DaVinci Resolve 19
 
-::: {.column width="48%"}
-```{=html}
-<div class="prog-card">
-  <div class="prog-title">DaVinci Resolve 19</div>
-  <p class="prog-desc">Software profesional de edición, corrección de color y audio. La versión gratuita es completamente funcional.</p>
-  <ul>
-    <li><a href="davinci/intro.html">Introducción e interfaz</a></li>
-    <li><a href="davinci/practica1.html">Práctica 1 — Anuncio BMW</a></li>
-  </ul>
-</div>
-```
-:::
+DaVinci Resolve es un software profesional de edición de vídeo, corrección de color y audio desarrollado por Blackmagic Design. Es utilizado en producciones de cine y televisión de primer nivel. Su versión gratuita es completamente funcional y es la que usamos en clase.
 
-::: {.column width="4%"}
-:::
+La interfaz se organiza en páginas: **Media** para importar material, **Edit** para montar el timeline, **Fusion** para efectos avanzados, **Color** para corrección de color, **Fairlight** para audio, y **Deliver** para exportar el resultado final. En las prácticas de este curso trabajaremos principalmente con Media, Edit y Deliver.
 
-::: {.column width="48%"}
-```{=html}
-<div class="prog-card">
-  <div class="prog-title">Adobe Premiere Pro</div>
-  <p class="prog-desc">Estándar de la industria en edición de vídeo. Integrado con el ecosistema Adobe Creative Cloud.</p>
-  <ul>
-    <li><a href="premiere/intro.html">Introducción e interfaz</a></li>
-  </ul>
-</div>
-```
-:::
+DaVinci guarda los proyectos en una base de datos interna. Es importante crear un proyecto nuevo al inicio de cada práctica y configurar correctamente la resolución (1920×1080) y la tasa de fotogramas (25 fps) antes de empezar a montar.
 
-:::
+[Ver introducción completa a DaVinci Resolve](davinci/intro.qmd)
 
-## Calendario — Práctica 1
+---
 
-| Semana | Sesión | Contenido |
-|--------|--------|-----------|
-| Semana 1 | Clase | Explicación y demostración |
-| Semana 2 | Trabajo | Montaje en clase |
-| Semana 3 | Entrega | Exportación a 1080p25 |
+## Adobe Premiere Pro
+
+Adobe Premiere Pro es el editor de vídeo estándar de la industria, integrado con el ecosistema Adobe Creative Cloud. A diferencia de DaVinci, guarda los proyectos como archivos `.prproj` en la carpeta que elijas, lo que facilita compartirlos y moverlos entre ordenadores.
+
+Su interfaz se divide en paneles: **Project** para organizar el material importado, **Source Monitor** para previsualizar clips antes de montarlos, **Program Monitor** para ver el resultado del timeline, y **Timeline** donde se construye el montaje. La exportación se hace desde **File > Export > Media**, con opción de enviar a Adobe Media Encoder para renderizar en segundo plano.
+
+Premiere es especialmente potente para trabajos que integran múltiples aplicaciones de Adobe, como gráficos de After Effects o correcciones de Photoshop directamente en el timeline.
+
+---
+
+## Prácticas
+
+### Práctica 1 — Anuncio BMW
+
+Montaje de un anuncio de coches de aproximadamente 30 segundos usando brutos de interior y exterior de un BMW, al ritmo de una música. La práctica incluye la aplicación de un efecto de destello animado con keyframes sobre el packshot final con el logo BMW, y un crédito con el nombre del alumno.
+
+Los pasos están detallados para los dos programas en la misma página, con pestañas para cambiar entre DaVinci Resolve y Adobe Premiere Pro.
+
+[Ir a la Práctica 1](davinci/practica1.qmd)
+
+---
 
 ## Material
 
-Los archivos están en la carpeta de la asignatura en los ordenadores del aula:
+Los archivos de cada práctica se distribuyen a través de la carpeta de la asignatura en los ordenadores del aula. No es necesario descargarlos externamente.
 
-- `CAR CHASE - Car Exteriors.mp4`
-- `CAR CHASE - Car Interiors_1.mp4`
-- `Car Chase.m4a`
-- `Cars_Logos_-_BMW.jpg`
+| Archivo | Tipo | Práctica |
+|---------|------|----------|
+| `CAR CHASE - Car Exteriors.mp4` | Vídeo · 1.68 GB | Práctica 1 |
+| `CAR CHASE - Car Interiors_1.mp4` | Vídeo · 685 MB | Práctica 1 |
+| `Car Chase.m4a` | Audio · 368 KB | Práctica 1 |
+| `Cars_Logos_-_BMW.jpg` | Imagen · 83 KB | Práctica 1 |
 
 ::: {.callout-note}
-Si `Car Chase.m4a` no se importa, convertirlo a MP3 con VLC. Ver [Recursos](recursos.html) para instrucciones.
+Si `Car Chase.m4a` no se importa correctamente en DaVinci o Premiere, convertirlo a MP3 con VLC antes de empezar. Ver [Recursos](recursos.qmd) para las instrucciones.
 :::
