@@ -1,0 +1,163 @@
+[
+  {
+    "objectID": "recursos.html",
+    "href": "recursos.html",
+    "title": "Recursos",
+    "section": "",
+    "text": "Software\nVersión\nDescarga\n\n\n\n\nDaVinci Resolve\n19 (gratuito)\nblackmagicdesign.com\n\n\nAdobe Premiere Pro\nCC (con licencia UMA)\nAdobe Creative Cloud\n\n\nVLC Media Player\nÚltima\nvideolan.org — útil para convertir formatos\n\n\nHandBrake\nÚltima\nhandbrake.fr — convertir vídeo si hay problemas"
+  },
+  {
+    "objectID": "recursos.html#software",
+    "href": "recursos.html#software",
+    "title": "Recursos",
+    "section": "",
+    "text": "Software\nVersión\nDescarga\n\n\n\n\nDaVinci Resolve\n19 (gratuito)\nblackmagicdesign.com\n\n\nAdobe Premiere Pro\nCC (con licencia UMA)\nAdobe Creative Cloud\n\n\nVLC Media Player\nÚltima\nvideolan.org — útil para convertir formatos\n\n\nHandBrake\nÚltima\nhandbrake.fr — convertir vídeo si hay problemas"
+  },
+  {
+    "objectID": "recursos.html#convertir-audio-m4a-a-mp3",
+    "href": "recursos.html#convertir-audio-m4a-a-mp3",
+    "title": "Recursos",
+    "section": "Convertir audio m4a a MP3",
+    "text": "Convertir audio m4a a MP3\nSi DaVinci no reconoce el archivo de música en formato m4a, convertirlo con VLC:\n\nAbrir VLC → Media → Convertir/Guardar\nAñadir el archivo m4a\nEn Perfil, seleccionar Audio - MP3\nElegir carpeta de destino y convertir"
+  },
+  {
+    "objectID": "recursos.html#atajos-de-teclado-esenciales-davinci-resolve",
+    "href": "recursos.html#atajos-de-teclado-esenciales-davinci-resolve",
+    "title": "Recursos",
+    "section": "Atajos de teclado esenciales — DaVinci Resolve",
+    "text": "Atajos de teclado esenciales — DaVinci Resolve\n\n\n\nAcción\nAtajo\n\n\n\n\nPlay/Pause\nEspacio\n\n\nMarcar entrada\nI\n\n\nMarcar salida\nO\n\n\nCorte\nCtrl+B\n\n\nDeshacer\nCtrl+Z\n\n\nRehacer\nCtrl+Y\n\n\nSelección\nA\n\n\nTrim\nT\n\n\nBlade (corte)\nB\n\n\nZoom in timeline\n=\n\n\nZoom out timeline\n-\n\n\nRender\nCtrl+Enter"
+  },
+  {
+    "objectID": "recursos.html#formatos-de-exportación-recomendados",
+    "href": "recursos.html#formatos-de-exportación-recomendados",
+    "title": "Recursos",
+    "section": "Formatos de exportación recomendados",
+    "text": "Formatos de exportación recomendados\n\n\n\nSituación\nFormato\nResolución\nFPS\n\n\n\n\nEntrega estándar\nMP4 H.264\n1920×1080\n25\n\n\nSi hay problemas de rendimiento\nMP4 H.264\n1280×720\n25\n\n\nPara subir a redes sociales\nMP4 H.264\n1080×1080 (cuadrado)\n25"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Edición de Vídeo",
+    "section": "",
+    "text": "🎬 RECURSOS DOCENTES\n  \n  \n    Materiales, prácticas y recursos para las clases de edición de vídeo con \n    DaVinci Resolve 19 y \n    Adobe Premiere Pro.\n  \n  \n    → Práctica 1 — Anuncio BMW\n    Intro a DaVinci"
+  },
+  {
+    "objectID": "index.html#programas",
+    "href": "index.html#programas",
+    "title": "Edición de Vídeo",
+    "section": "Programas",
+    "text": "Programas\n\n\n\n  🎞️\n  DaVinci Resolve 19\n  Software profesional de edición, corrección de color y audio. Versión gratuita completa para uso en clase.\n  \n    Introducción e interfaz\n    Práctica 1 — Anuncio BMW\n  \n\n\n\n\n\n  🎨\n  Adobe Premiere Pro\n  El estándar de la industria en edición de vídeo, integrado con el ecosistema de Adobe Creative Cloud.\n  \n    Introducción e interfaz"
+  },
+  {
+    "objectID": "index.html#calendario-de-prácticas",
+    "href": "index.html#calendario-de-prácticas",
+    "title": "Edición de Vídeo",
+    "section": "Calendario de prácticas",
+    "text": "Calendario de prácticas\n\n\n\nSemana\nContenido\nEntrega\n\n\n\n\nSemana 1\nExplicación y demostración — Anuncio BMW\n—\n\n\nSemana 2\nTrabajo en clase\n—\n\n\nSemana 3\nFinalización y entrega\nExportar a 1080p25"
+  },
+  {
+    "objectID": "index.html#cómo-usar-estos-materiales",
+    "href": "index.html#cómo-usar-estos-materiales",
+    "title": "Edición de Vídeo",
+    "section": "Cómo usar estos materiales",
+    "text": "Cómo usar estos materiales\nEsta web contiene los enunciados detallados de cada práctica, los recursos necesarios (material audiovisual, música) y los criterios de evaluación. Los archivos de vídeo y audio se distribuyen por separado a través de la carpeta de la asignatura en los ordenadores del aula.\n\n\n\n\n\n\nNote\n\n\n\nLos materiales de vídeo (brutos de interior y exterior del coche, música en formato m4a) se copiarán en la carpeta de la asignatura antes de la primera sesión de trabajo."
+  },
+  {
+    "objectID": "davinci/intro.html",
+    "href": "davinci/intro.html",
+    "title": "Introducción a DaVinci Resolve 19",
+    "section": "",
+    "text": "DaVinci Resolve es un software profesional de edición de vídeo, corrección de color, efectos visuales y audio desarrollado por Blackmagic Design. Es usado en producciones de cine y televisión de primer nivel. Su versión gratuita es completamente funcional.\n\n\n\n\n\n\nTip\n\n\n\nDescarga gratuita en blackmagicdesign.com/products/davinciresolve"
+  },
+  {
+    "objectID": "davinci/intro.html#qué-es-davinci-resolve",
+    "href": "davinci/intro.html#qué-es-davinci-resolve",
+    "title": "Introducción a DaVinci Resolve 19",
+    "section": "",
+    "text": "DaVinci Resolve es un software profesional de edición de vídeo, corrección de color, efectos visuales y audio desarrollado por Blackmagic Design. Es usado en producciones de cine y televisión de primer nivel. Su versión gratuita es completamente funcional.\n\n\n\n\n\n\nTip\n\n\n\nDescarga gratuita en blackmagicdesign.com/products/davinciresolve"
+  },
+  {
+    "objectID": "davinci/intro.html#las-páginas-de-davinci",
+    "href": "davinci/intro.html#las-páginas-de-davinci",
+    "title": "Introducción a DaVinci Resolve 19",
+    "section": "Las páginas de DaVinci",
+    "text": "Las páginas de DaVinci\nDaVinci se organiza en páginas (iconos en la barra inferior). Cada página corresponde a una fase del trabajo:\n\n\n\nPágina\nPara qué sirve\nLa usamos en clase\n\n\n\n\nMedia\nImportar y organizar el material\n✅ Sí\n\n\nCut\nEdición rápida\n—\n\n\nEdit\nMontaje principal en timeline\n✅ Sí\n\n\nFusion\nEfectos visuales avanzados\n—\n\n\nColor\nCorrección de color\n—\n\n\nFairlight\nEdición de audio\n—\n\n\nDeliver\nExportar el vídeo final\n✅ Sí"
+  },
+  {
+    "objectID": "davinci/intro.html#crear-un-proyecto-nuevo",
+    "href": "davinci/intro.html#crear-un-proyecto-nuevo",
+    "title": "Introducción a DaVinci Resolve 19",
+    "section": "Crear un proyecto nuevo",
+    "text": "Crear un proyecto nuevo\n\nAbrir DaVinci → aparece el Project Manager\nClic en New Project (esquina inferior derecha)\nNombre: P1_BMW_TuNombre\nClic en Create\n\n\n\n\n\n\n\nWarning\n\n\n\nAntes de empezar, configurar en File → Project Settings:\n\nTimeline resolution: 1920×1080 HD\nTimeline frame rate: 25 fps"
+  },
+  {
+    "objectID": "davinci/intro.html#importar-material-página-media",
+    "href": "davinci/intro.html#importar-material-página-media",
+    "title": "Introducción a DaVinci Resolve 19",
+    "section": "Importar material (página Media)",
+    "text": "Importar material (página Media)\n\nClic en el icono Media (primer icono abajo)\nPanel izquierdo: navegar hasta la carpeta de la asignatura\nArrastrar los 4 archivos al Media Pool (panel central)\nOrganizar: clic derecho → Add Bin → crear Exterior, Interior, Audio, Graficos"
+  },
+  {
+    "objectID": "davinci/intro.html#la-página-edit-el-timeline",
+    "href": "davinci/intro.html#la-página-edit-el-timeline",
+    "title": "Introducción a DaVinci Resolve 19",
+    "section": "La página Edit — el timeline",
+    "text": "La página Edit — el timeline\nTiene tres zonas principales:\n\nMedia Pool (izquierda): el material disponible\nViewer (centro): previsualización\nTimeline (abajo): donde se monta el vídeo\n\n\nAtajos esenciales\n\n\n\nTecla\nFunción\n\n\n\n\nEspacio\nPlay / Pause\n\n\nI / O\nMarcar entrada / salida\n\n\nB\nHerramienta Blade (cortar)\n\n\nA\nHerramienta selección\n\n\nT\nHerramienta Trim\n\n\nCtrl+Z\nDeshacer\n\n\n= / -\nZoom in / out en timeline"
+  },
+  {
+    "objectID": "davinci/intro.html#exportar-página-deliver",
+    "href": "davinci/intro.html#exportar-página-deliver",
+    "title": "Introducción a DaVinci Resolve 19",
+    "section": "Exportar (página Deliver)",
+    "text": "Exportar (página Deliver)\n\nClic en el icono Deliver (último icono abajo)\nPanel izquierdo → Render Settings:\n\nFormat: MP4\nCodec: H.264\nResolution: 1920×1080 (o 1280×720 si el ordenador va lento)\nFrame rate: 25\n\nNombre del archivo → carpeta de destino\nAdd to Render Queue → Render All"
+  },
+  {
+    "objectID": "practica1.html",
+    "href": "practica1.html",
+    "title": "Práctica 1 — Anuncio de Coches BMW",
+    "section": "",
+    "text": "📅 Entrega en 3 semanas · Exportar a 1080p25\n  \n  \n    🎞️ DaVinci Resolve 19\n    ⏱️ ~30 segundos\n    📤 1080p 25fps (o 720p si hay problemas)\n    🎵 Música incluida (m4a)"
+  },
+  {
+    "objectID": "practica1.html#objetivo-de-la-práctica",
+    "href": "practica1.html#objetivo-de-la-práctica",
+    "title": "Práctica 1 — Anuncio de Coches BMW",
+    "section": "Objetivo de la práctica",
+    "text": "Objetivo de la práctica\nMontar un anuncio de coches de unos 30 segundos usando material audiovisual de brutos de interior y exterior de un BMW, al ritmo de una música. Al final del anuncio se añade el packshot con el logo BMW, sobre el que se aplicará un efecto de destello animado con keyframes.\nEl resultado final incluirá también un crédito con el nombre del alumno."
+  },
+  {
+    "objectID": "practica1.html#material-necesario",
+    "href": "practica1.html#material-necesario",
+    "title": "Práctica 1 — Anuncio de Coches BMW",
+    "section": "Material necesario",
+    "text": "Material necesario\n\n\n\nArchivo\nTipo\nNotas\n\n\n\n\nBrutos exterior BMW\n🎬 Vídeo\nPlanos del coche en exterior — seleccionar los mejores\n\n\nBrutos interior BMW\n🎬 Vídeo\nPlanos del interior — salpicadero, volante, etc.\n\n\nLogo BMW\n🖼️ Imagen\nPackshot final — debe aparecer al final del anuncio\n\n\nMúsica\n🎵 m4a\nPuede ser necesario convertirla a mp3/wav si DaVinci da problemas\n\n\n\n\n\n\n\n\n\nNote\n\n\n\nTodos los archivos estarán disponibles en la carpeta de la asignatura en los ordenadores del aula, copiados antes de la primera sesión de trabajo."
+  },
+  {
+    "objectID": "practica1.html#pasos-de-la-práctica",
+    "href": "practica1.html#pasos-de-la-práctica",
+    "title": "Práctica 1 — Anuncio de Coches BMW",
+    "section": "Pasos de la práctica",
+    "text": "Pasos de la práctica\n\nPaso 1 · Crear el proyecto y organizar el material\n\n  Paso 1\n  Crear un nuevo proyecto en DaVinci Resolve\n  \n    Abrir DaVinci Resolve → Project Manager → New Project\n    Dar un nombre al proyecto: Practica1_BMW_TuNombre\n    En File → Project Settings: verificar que el formato es 1920×1080, 25fps\n    Importar todos los archivos: arrastrar desde el explorador al Media Pool\n    Crear carpetas en el Media Pool: Exterior, Interior, Audio, Graficos\n  \n\n\n\nPaso 2 · Seleccionar los mejores planos\n\n  Paso 2\n  Revisar y seleccionar el material\n  El material son brutos — hay que escoger los mejores planos. El anuncio debe durar aproximadamente 30 segundos, así que la música de 1 minuto hay que acortarla.\n  \n    Reproducir los brutos en el Viewer antes de llevarlos al timeline\n    Marcar entrada (I) y salida (O) en los mejores momentos\n    Combinar planos de exterior e interior para dar variedad al montaje\n    El ritmo debe seguir la música — cortar al beat\n  \n\n\n\nPaso 3 · Montar el timeline\n\n  Paso 3\n  Construir el montaje en la línea de tiempo\n  \n    Crear una nueva timeline (Timeline → Create New Timeline)\n    Añadir la música primero en la pista de audio — servirá de guía para el ritmo\n    Acortar la música a unos 30 segundos: usar la herramienta de recorte (T) o hacer un corte (Ctrl+B) y eliminar el resto\n    Ir colocando los planos de vídeo encima, cortando al ritmo de la música\n    El packshot con el logo BMW va al final, como cierre del anuncio\n  \n\n\n\nPaso 4 · Añadir el efecto de destello (Lens Flare / Glint)\n\n  Paso 4 — ⭐ Efecto clave\n  Animar un destello sobre el logo BMW\n  Este es el efecto principal de la práctica. El destello se aplica sobre el clip del logo y se anima con keyframes para que se mueva alrededor de las letras.\n\n  En DaVinci Resolve:\n  \n    Seleccionar el clip del logo BMW en el timeline\n    Ir al panel Effects (esquina superior derecha o botón Effects en la barra)\n    Buscar \"Lens Flare\" o \"Glint\" en la barra de búsqueda de efectos\n    Arrastrar el efecto sobre el clip del logo\n    En los Inspector (panel derecho), ajustar la posición inicial del destello\n    Activar keyframes: hacer clic en el icono ◇ junto al parámetro de posición\n    Mover el cabezal a un punto diferente del clip y cambiar la posición → se crea un keyframe automáticamente\n    Añadir varios keyframes para que el destello recorra las letras del logo\n  \n\n  \n    💡 Consejo\n    El destello queda mucho mejor si empieza fuera del encuadre, entra sobre el logo, y sale por el otro lado. Usa al menos 3 keyframes: inicio, punto central sobre el logo, y final.\n  \n\n\n\nPaso 5 · Añadir el crédito final\n\n  Paso 5\n  Título con el nombre del alumno\n  \n    Ir a la pestaña Edit del timeline\n    En el panel Effects, buscar \"Text\" o \"Text+\"\n    Arrastrar el texto al final del timeline, encima del último clip o del packshot\n    En el Inspector, escribir tu nombre en el campo de texto\n    Ajustar fuente, tamaño y posición — estilo crédito cinematográfico (centrado, tipografía elegante)\n    Duración recomendada: 3-5 segundos\n  \n\n\n\nPaso 6 · Exportar el vídeo final\n\n  Paso 6 — Entrega\n  Renderizar y exportar\n  \n    Ir a la pestaña Deliver (icono del cohete, abajo)\n    En Render Settings:\n      \n        Format: MP4\n        Codec: H.264\n        Resolution: 1920×1080 (si el ordenador va lento, usar 1280×720)\n        Frame rate: 25 fps\n      \n    \n    Nombre del archivo: P1_BMW_TuNombre.mp4\n    Elegir carpeta de destino → Add to Render Queue → Render All"
+  },
+  {
+    "objectID": "practica1.html#criterios-de-evaluación",
+    "href": "practica1.html#criterios-de-evaluación",
+    "title": "Práctica 1 — Anuncio de Coches BMW",
+    "section": "Criterios de evaluación",
+    "text": "Criterios de evaluación\n\n  El anuncio dura aproximadamente 30 segundos\n  Se usan planos de interior y exterior del coche\n  El montaje sigue el ritmo de la música\n  El logo BMW aparece al final como packshot\n  El efecto de destello está aplicado y animado con keyframes\n  El destello se mueve visiblemente (mínimo 2-3 keyframes de posición)\n  Aparece el crédito con el nombre del alumno\n  El archivo exportado está en formato MP4, 1080p25 o 720p25"
+  },
+  {
+    "objectID": "practica1.html#opcional-inteligencia-artificial",
+    "href": "practica1.html#opcional-inteligencia-artificial",
+    "title": "Práctica 1 — Anuncio de Coches BMW",
+    "section": "Opcional — Inteligencia Artificial",
+    "text": "Opcional — Inteligencia Artificial\n\n\n\n\n\n\nTip\n\n\n\nOptativo: Si quieres ir más allá, puedes usar IA generativa para crear algún elemento adicional del anuncio: una voz en off generada, música alternativa, o un texto del anuncio. No es obligatorio pero se valorará positivamente si está bien integrado."
+  },
+  {
+    "objectID": "practica1.html#problemas-frecuentes",
+    "href": "practica1.html#problemas-frecuentes",
+    "title": "Práctica 1 — Anuncio de Coches BMW",
+    "section": "Problemas frecuentes",
+    "text": "Problemas frecuentes\n\n\n\n\n\n\n\nProblema\nSolución\n\n\n\n\nLa música m4a no se importa\nConvertirla a MP3 o WAV con VLC o un conversor online\n\n\nEl ordenador va muy lento al reproducir\nGenerar proxies: clic derecho en el clip → Generate Optimized Media\n\n\nEl efecto de destello no aparece en la lista\nBuscar “Glint” en lugar de “Lens Flare” o viceversa\n\n\nEl render tarda mucho o falla\nExportar en 720p en lugar de 1080p\n\n\nLos keyframes no funcionan\nVerificar que el icono ◇ está activado (color naranja) en el parámetro"
+  }
+]
