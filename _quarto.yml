@@ -3,49 +3,43 @@ project:
   output-dir: _site
 
 website:
-  title: "Edición de Vídeo"
-  description: "Recursos para las clases de DaVinci Resolve y Adobe Premiere Pro"
-  favicon: "assets/favicon.ico"
+  title: "Fundamentos de Redacción Audiovisual"
+  description: "Recursos docentes de edición de vídeo con DaVinci Resolve y Adobe Premiere Pro"
   navbar:
     background: dark
     foreground: light
-    logo: "assets/logo.png"
     title: "🎬 Edición de Vídeo"
     left:
       - text: "Inicio"
         href: index.qmd
       - text: "DaVinci Resolve"
         menu:
-          - text: "Introducción"
+          - text: "Introducción e interfaz"
             href: davinci/intro.qmd
           - text: "Práctica 1 — Anuncio BMW"
             href: davinci/practica1.qmd
       - text: "Adobe Premiere"
         menu:
-          - text: "Introducción"
+          - text: "Introducción e interfaz"
             href: premiere/intro.qmd
       - text: "Recursos"
         href: recursos.qmd
     right:
       - icon: github
-        href: https://github.com/AritzUMA/edicion-video
+        href: https://github.com/AritzUMA/Fundamentos_Redaccion
         aria-label: GitHub
 
-  sidebar: false
-
   page-footer:
-    left: "Recursos docentes de edición de vídeo"
+    left: "Fundamentos de Redacción Audiovisual"
     right: "Aritz Gorostiza-Cerviño · UMA"
 
 format:
   html:
-    theme:
-      - cosmo
-      - styles.css
+    theme: cosmo
+    css: styles.css
     toc: true
     toc-depth: 3
     toc-title: "En esta página"
     smooth-scroll: true
-    code-tools: false
     highlight-style: github
     link-external-newwindow: true
