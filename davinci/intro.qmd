@@ -1,0 +1,89 @@
+---
+title: "Introducción a DaVinci Resolve 19"
+subtitle: "Interfaz, paneles y primeros pasos"
+toc: true
+---
+
+## ¿Qué es DaVinci Resolve?
+
+DaVinci Resolve es un software profesional de **edición de vídeo, corrección de color, efectos visuales y audio** desarrollado por Blackmagic Design. Es usado en producciones de cine y televisión de primer nivel. Su versión gratuita es completamente funcional.
+
+::: {.callout-tip}
+Descarga gratuita en [blackmagicdesign.com/products/davinciresolve](https://www.blackmagicdesign.com/products/davinciresolve)
+:::
+
+---
+
+## Las páginas de DaVinci
+
+DaVinci se organiza en **páginas** (iconos en la barra inferior). Cada página corresponde a una fase del trabajo:
+
+| Página | Para qué sirve | La usamos en clase |
+|--------|----------------|--------------------|
+| **Media** | Importar y organizar el material | ✅ Sí |
+| **Cut** | Edición rápida | — |
+| **Edit** | Montaje principal en timeline | ✅ Sí |
+| **Fusion** | Efectos visuales avanzados | — |
+| **Color** | Corrección de color | — |
+| **Fairlight** | Edición de audio | — |
+| **Deliver** | Exportar el vídeo final | ✅ Sí |
+
+---
+
+## Crear un proyecto nuevo
+
+1. Abrir DaVinci → aparece el **Project Manager**
+2. Clic en **New Project** (esquina inferior derecha)
+3. Nombre: `P1_BMW_TuNombre`
+4. Clic en **Create**
+
+::: {.callout-warning}
+Antes de empezar, configurar en *File → Project Settings*:
+
+- **Timeline resolution:** 1920×1080 HD
+- **Timeline frame rate:** 25 fps
+:::
+
+---
+
+## Importar material (página Media)
+
+1. Clic en el icono **Media** (primer icono abajo)
+2. Panel izquierdo: navegar hasta la carpeta de la asignatura
+3. Arrastrar los 4 archivos al **Media Pool** (panel central)
+4. Organizar: clic derecho → *Add Bin* → crear `Exterior`, `Interior`, `Audio`, `Graficos`
+
+---
+
+## La página Edit — el timeline
+
+Tiene tres zonas principales:
+
+- **Media Pool** (izquierda): el material disponible
+- **Viewer** (centro): previsualización
+- **Timeline** (abajo): donde se monta el vídeo
+
+### Atajos esenciales
+
+| Tecla | Función |
+|-------|---------|
+| `Espacio` | Play / Pause |
+| `I` / `O` | Marcar entrada / salida |
+| `B` | Herramienta Blade (cortar) |
+| `A` | Herramienta selección |
+| `T` | Herramienta Trim |
+| `Ctrl+Z` | Deshacer |
+| `=` / `-` | Zoom in / out en timeline |
+
+---
+
+## Exportar (página Deliver)
+
+1. Clic en el icono **Deliver** (último icono abajo)
+2. Panel izquierdo → *Render Settings*:
+   - Format: **MP4**
+   - Codec: **H.264**
+   - Resolution: **1920×1080** (o **1280×720** si el ordenador va lento)
+   - Frame rate: **25**
+3. Nombre del archivo → carpeta de destino
+4. **Add to Render Queue** → **Render All**

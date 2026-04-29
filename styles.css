@@ -1,0 +1,323 @@
+/* ============================================================
+   EDICIÓN DE VÍDEO — Estilos
+   Dark editorial, professional media production feel
+   ============================================================ */
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@300;400;500;700&family=DM+Mono:wght@400;500&family=Playfair+Display:wght@700&display=swap');
+
+:root {
+  --bg-dark:       #0f1117;
+  --bg-panel:      #1a1d27;
+  --bg-card:       #222636;
+  --accent:        #e8a020;
+  --accent-dim:    #a36b10;
+  --text-primary:  #f0f0f0;
+  --text-secondary:#9aa0b4;
+  --text-muted:    #5c6278;
+  --border:        #2e3347;
+  --success:       #3ecf8e;
+  --danger:        #e85d4a;
+  --info:          #4fa3e3;
+
+  --font-body:    'DM Sans', sans-serif;
+  --font-mono:    'DM Mono', monospace;
+  --font-display: 'Playfair Display', serif;
+
+  --radius:    8px;
+  --shadow:    0 4px 24px rgba(0,0,0,0.4);
+}
+
+/* Base */
+body {
+  font-family: var(--font-body);
+  background-color: var(--bg-dark);
+  color: var(--text-primary);
+  line-height: 1.75;
+  font-size: 16px;
+}
+
+/* Navbar */
+.navbar {
+  background-color: #0a0c12 !important;
+  border-bottom: 1px solid var(--border);
+  padding: 0.6rem 1.5rem;
+}
+
+.navbar-brand {
+  font-family: var(--font-display);
+  font-size: 1.2rem;
+  color: var(--accent) !important;
+  letter-spacing: 0.02em;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: var(--text-secondary) !important;
+  font-size: 0.9rem;
+  font-weight: 500;
+  transition: color 0.2s;
+  padding: 0.5rem 0.9rem;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+  color: var(--accent) !important;
+}
+
+/* Headings */
+h1, h2, h3, h4 {
+  font-family: var(--font-body);
+  font-weight: 700;
+  color: var(--text-primary);
+}
+
+h1 {
+  font-family: var(--font-display);
+  font-size: 2.4rem;
+  line-height: 1.2;
+  margin-bottom: 0.5rem;
+}
+
+h2 {
+  font-size: 1.5rem;
+  border-left: 3px solid var(--accent);
+  padding-left: 0.75rem;
+  margin-top: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+h3 {
+  font-size: 1.15rem;
+  color: var(--accent);
+  margin-top: 1.8rem;
+}
+
+/* Main content area */
+#quarto-content {
+  background-color: var(--bg-dark);
+}
+
+.quarto-container {
+  max-width: 860px;
+}
+
+/* TOC */
+#TOC {
+  background-color: var(--bg-panel);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 1rem 1.2rem;
+  font-size: 0.85rem;
+}
+
+#TOC a {
+  color: var(--text-secondary);
+  text-decoration: none;
+}
+
+#TOC a:hover {
+  color: var(--accent);
+}
+
+/* Cards — para pasos de prácticas */
+.card-paso {
+  background: var(--bg-panel);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 1.4rem 1.6rem;
+  margin-bottom: 1.2rem;
+  position: relative;
+}
+
+.card-paso .paso-num {
+  display: inline-block;
+  background: var(--accent);
+  color: #000;
+  font-weight: 700;
+  font-size: 0.75rem;
+  padding: 0.2rem 0.6rem;
+  border-radius: 4px;
+  margin-bottom: 0.6rem;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+}
+
+/* Callouts personalizados */
+.callout {
+  border-radius: var(--radius);
+  border: none;
+  padding: 1rem 1.4rem;
+  margin: 1.4rem 0;
+}
+
+.callout-tip {
+  background: rgba(62, 207, 142, 0.1);
+  border-left: 3px solid var(--success);
+}
+
+.callout-warning {
+  background: rgba(232, 160, 32, 0.1);
+  border-left: 3px solid var(--accent);
+}
+
+.callout-note {
+  background: rgba(79, 163, 227, 0.1);
+  border-left: 3px solid var(--info);
+}
+
+.callout-important {
+  background: rgba(232, 93, 74, 0.1);
+  border-left: 3px solid var(--danger);
+}
+
+/* Badges de entrega */
+.badge-entrega {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  background: rgba(232, 160, 32, 0.15);
+  border: 1px solid var(--accent-dim);
+  color: var(--accent);
+  font-size: 0.82rem;
+  font-weight: 600;
+  padding: 0.3rem 0.8rem;
+  border-radius: 20px;
+  margin-bottom: 1.2rem;
+}
+
+/* Hero banner para prácticas */
+.practica-hero {
+  background: linear-gradient(135deg, var(--bg-panel) 0%, #1e2235 100%);
+  border: 1px solid var(--border);
+  border-top: 3px solid var(--accent);
+  border-radius: var(--radius);
+  padding: 2rem 2.4rem;
+  margin-bottom: 2.5rem;
+}
+
+.practica-hero h1 {
+  font-size: 2rem;
+  margin-bottom: 0.4rem;
+}
+
+.practica-hero .meta {
+  color: var(--text-secondary);
+  font-size: 0.88rem;
+  display: flex;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+  margin-top: 0.8rem;
+}
+
+.practica-hero .meta span {
+  display: flex;
+  align-items: center;
+  gap: 0.3rem;
+}
+
+/* Tabla de materiales */
+.tabla-materiales {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0;
+  background: var(--bg-panel);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  overflow: hidden;
+  margin: 1.2rem 0;
+  font-size: 0.9rem;
+}
+
+.tabla-materiales th {
+  background: var(--bg-card);
+  color: var(--accent);
+  font-weight: 600;
+  padding: 0.7rem 1rem;
+  text-align: left;
+  letter-spacing: 0.04em;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+}
+
+.tabla-materiales td {
+  padding: 0.65rem 1rem;
+  border-top: 1px solid var(--border);
+  color: var(--text-primary);
+  vertical-align: top;
+}
+
+.tabla-materiales tr:hover td {
+  background: rgba(255,255,255,0.02);
+}
+
+/* Code blocks */
+pre, code {
+  font-family: var(--font-mono);
+  font-size: 0.88rem;
+}
+
+pre {
+  background: var(--bg-panel) !important;
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 1.1rem 1.3rem;
+}
+
+code {
+  background: var(--bg-card);
+  padding: 0.15em 0.4em;
+  border-radius: 4px;
+  color: var(--accent);
+}
+
+/* Links */
+a {
+  color: var(--accent);
+  text-decoration: none;
+  transition: opacity 0.15s;
+}
+
+a:hover {
+  opacity: 0.75;
+  text-decoration: underline;
+}
+
+/* Footer */
+.nav-footer {
+  background: #0a0c12;
+  border-top: 1px solid var(--border);
+  color: var(--text-muted);
+  font-size: 0.83rem;
+  padding: 1rem 1.5rem;
+}
+
+/* Checklist visual */
+.checklist {
+  list-style: none;
+  padding-left: 0;
+  margin: 1rem 0;
+}
+
+.checklist li {
+  padding: 0.5rem 0.8rem 0.5rem 2.2rem;
+  position: relative;
+  border-bottom: 1px solid var(--border);
+  color: var(--text-primary);
+  font-size: 0.95rem;
+}
+
+.checklist li:last-child {
+  border-bottom: none;
+}
+
+.checklist li::before {
+  content: "☐";
+  position: absolute;
+  left: 0.5rem;
+  color: var(--accent);
+  font-size: 1rem;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  h1 { font-size: 1.8rem; }
+  .practica-hero { padding: 1.4rem; }
+}
