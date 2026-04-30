@@ -1,45 +1,39 @@
-# 🎬 Edición de Vídeo
+# Fundamentos de Redacción Audiovisual
 
-Web de recursos docentes para las clases de edición de vídeo con **DaVinci Resolve 19** y **Adobe Premiere Pro**.
+Web de recursos docentes para las clases de edición de vídeo con DaVinci Resolve 19 y Adobe Premiere Pro.
 
-## 🌐 Ver la web
+## Web publicada
 
-**[aritzuma.github.io/edicion-video](https://aritzuma.github.io/edicion-video)**
+[aritzuma.github.io/Fundamentos_Redaccion](https://aritzuma.github.io/Fundamentos_Redaccion)
 
-## 📁 Estructura
+## Estructura del repositorio
 
 ```
-edicion-video/
-├── index.qmd          # Página de inicio
-├── styles.css         # Estilos personalizados
-├── _quarto.yml        # Configuración de Quarto
+Fundamentos_Redaccion/
+├── .github/workflows/publish.yml
+├── .gitignore
+├── _quarto.yml
+├── styles.css
+├── index.qmd
+├── recursos.qmd
+├── README.md
 ├── davinci/
-│   ├── intro.qmd      # Introducción a DaVinci Resolve
-│   └── practica1.qmd  # Práctica 1 — Anuncio BMW
-├── premiere/
-│   └── intro.qmd      # Introducción a Premiere Pro
-└── recursos.qmd       # Recursos y herramientas
+│   ├── intro.qmd
+│   └── practica1.qmd
+└── Recuros/            # No subir — archivos grandes ignorados por .gitignore
 ```
 
-## 🛠️ Desarrollo local
+## Material de las prácticas
+
+Los archivos de vídeo y audio se distribuyen por SwissTransfer o a través de la carpeta de la asignatura en los ordenadores del aula. No están incluidos en el repositorio por su tamaño.
+
+## Desarrollo local
 
 ```r
-# Renderizar localmente
 quarto::quarto_render()
-
-# O desde terminal
-quarto render
-quarto preview
+quarto::quarto_preview()
 ```
 
-## 🚀 Publicar en GitHub Pages
+## Publicación
 
-```bash
-quarto publish gh-pages
-```
-
-## 📋 Contenido actual
-
-- ✅ Práctica 1 — Anuncio BMW (DaVinci Resolve)
-- ✅ Introducción a DaVinci Resolve
-- 🔄 Introducción a Premiere Pro (en desarrollo)
+La web se publica automáticamente en GitHub Pages mediante GitHub Actions cada vez que se hace push a la rama main.
