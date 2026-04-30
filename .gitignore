@@ -3,3 +3,5 @@ site_libs/
 *_files/
 .quarto/
 *.html
+
+Recuros/
