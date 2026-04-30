@@ -1,0 +1,48 @@
+---
+title: "Recursos"
+subtitle: "Herramientas, descargables y enlaces útiles"
+toc: true
+---
+
+## Software
+
+| Software | Versión | Descarga |
+|----------|---------|----------|
+| DaVinci Resolve | 19 (gratuito) | [blackmagicdesign.com](https://www.blackmagicdesign.com/products/davinciresolve) |
+| Adobe Premiere Pro | CC (con licencia UMA) | Adobe Creative Cloud |
+| VLC Media Player | Última | [videolan.org](https://www.videolan.org) — útil para convertir formatos |
+| HandBrake | Última | [handbrake.fr](https://handbrake.fr) — convertir vídeo si hay problemas |
+
+## Convertir audio m4a a MP3
+
+Si DaVinci no reconoce el archivo de música en formato m4a, convertirlo con VLC:
+
+1. Abrir VLC → *Media → Convertir/Guardar*
+2. Añadir el archivo m4a
+3. En *Perfil*, seleccionar **Audio - MP3**
+4. Elegir carpeta de destino y convertir
+
+## Atajos de teclado esenciales — DaVinci Resolve
+
+| Acción | Atajo |
+|--------|-------|
+| Play/Pause | `Espacio` |
+| Marcar entrada | `I` |
+| Marcar salida | `O` |
+| Corte | `Ctrl+B` |
+| Deshacer | `Ctrl+Z` |
+| Rehacer | `Ctrl+Y` |
+| Selección | `A` |
+| Trim | `T` |
+| Blade (corte) | `B` |
+| Zoom in timeline | `=` |
+| Zoom out timeline | `-` |
+| Render | `Ctrl+Enter` |
+
+## Formatos de exportación recomendados
+
+| Situación | Formato | Resolución | FPS |
+|-----------|---------|------------|-----|
+| Entrega estándar | MP4 H.264 | 1920×1080 | 25 |
+| Si hay problemas de rendimiento | MP4 H.264 | 1280×720 | 25 |
+| Para subir a redes sociales | MP4 H.264 | 1080×1080 (cuadrado) | 25 |
