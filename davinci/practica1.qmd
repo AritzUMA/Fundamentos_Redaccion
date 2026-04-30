@@ -179,6 +179,24 @@ toc: false
   </div>
 </div>
 
+<!-- Introducción -->
+<div class="section-label">Introducción</div>
+
+<p style="font-family:'Cormorant Garamond',Georgia,serif; font-size:1.1rem; color:#6B6560; line-height:1.8; margin-bottom:1rem;">
+En esta práctica vais a montar un anuncio de coches de aproximadamente 30 segundos. Tenéis disponibles brutos de vídeo del exterior e interior de un BMW, una pista de música y el logo de la marca para el packshot final. El objetivo es que el resultado tenga coherencia visual y narrativa: una selección cuidada de planos, un montaje que siga el ritmo de la música, un efecto de destello animado sobre el logo y un crédito final con vuestro nombre.
+</p>
+
+<p style="font-family:'Cormorant Garamond',Georgia,serif; font-size:1.1rem; color:#6B6560; line-height:1.8; margin-bottom:1rem;">
+Podéis trabajar con DaVinci Resolve 19 o con Adobe Premiere Pro. Los pasos están detallados para los dos programas en las pestañas de más abajo. Si tenéis dudas sobre cómo hacer algo en un programa concreto, consultad también la sección de Recursos.
+</p>
+
+<div style="background:#EDE6D6; border-left:2px solid #C8C0B0; padding:1rem 1.4rem; margin:1.5rem 0; border-radius:0 2px 2px 0;">
+  <p style="font-family:'DM Sans',sans-serif; font-size:0.72rem; font-weight:500; letter-spacing:0.12em; text-transform:uppercase; color:#9E9890; margin:0 0 0.4rem 0;">Entrega</p>
+  <p style="font-family:'DM Sans',sans-serif; font-size:0.88rem; color:#6B6560; line-height:1.7; margin:0;">
+    El vídeo final se entrega en formato <strong style="color:#1C1C1A;">MP4</strong>, resolución <strong style="color:#1C1C1A;">1080p a 25 fps</strong> (o 720p si el ordenador da problemas). El nombre del archivo debe seguir este formato: <code>P1_BMW_TuNombre.mp4</code>. La entrega se hace dejando el archivo en la carpeta de la asignatura en los ordenadores del aula antes de que termine la tercera sesión.
+  </p>
+</div>
+
 <!-- Materiales -->
 <div class="section-label">Material</div>
 
