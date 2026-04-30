@@ -1,19 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://AritzUMA.github.io/Fundamentos_Redaccion/recursos.html</loc>
-    <lastmod>2026-04-29T21:27:44.989Z</lastmod>
-  </url>
-  <url>
-    <loc>https://AritzUMA.github.io/Fundamentos_Redaccion/davinci/intro.html</loc>
-    <lastmod>2026-04-29T21:27:44.988Z</lastmod>
+    <loc>https://AritzUMA.github.io/Fundamentos_Redaccion/index.html</loc>
+    <lastmod>2026-04-30T08:16:19.795Z</lastmod>
   </url>
   <url>
     <loc>https://AritzUMA.github.io/Fundamentos_Redaccion/davinci/practica1.html</loc>
-    <lastmod>2026-04-29T21:27:44.989Z</lastmod>
+    <lastmod>2026-04-30T08:16:19.795Z</lastmod>
   </url>
   <url>
-    <loc>https://AritzUMA.github.io/Fundamentos_Redaccion/index.html</loc>
-    <lastmod>2026-04-29T21:27:44.989Z</lastmod>
+    <loc>https://AritzUMA.github.io/Fundamentos_Redaccion/davinci/intro.html</loc>
+    <lastmod>2026-04-30T08:16:19.795Z</lastmod>
   </url>
 </urlset>
