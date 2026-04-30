@@ -102,27 +102,27 @@
     "href": "index.html#davinci-resolve-19",
     "title": "Edición de Vídeo",
     "section": "DaVinci Resolve 19",
-    "text": "DaVinci Resolve 19\nDaVinci Resolve es un software profesional de edición de vídeo, corrección de color y audio desarrollado por Blackmagic Design. Es utilizado en producciones de cine y televisión de primer nivel. Su versión gratuita es completamente funcional y es la que usamos en clase.\nLa interfaz se organiza en páginas: Media para importar material, Edit para montar el timeline, Fusion para efectos avanzados, Color para corrección de color, Fairlight para audio, y Deliver para exportar el resultado final. En las prácticas de este curso trabajaremos principalmente con Media, Edit y Deliver.\nDaVinci guarda los proyectos en una base de datos interna. Es importante crear un proyecto nuevo al inicio de cada práctica y configurar correctamente la resolución (1920×1080) y la tasa de fotogramas (25 fps) antes de empezar a montar.\nVer introducción completa a DaVinci Resolve"
+    "text": "DaVinci Resolve 19\nDaVinci Resolve es un software profesional de edición de vídeo, corrección de color y audio desarrollado por Blackmagic Design. Es utilizado en producciones de cine y televisión de primer nivel. Su versión gratuita es completamente funcional y es la que usamos en clase.\nLa interfaz se organiza en páginas: Media para importar material, Edit para montar el timeline, Color para corrección de color, Fairlight para audio, y Deliver para exportar el resultado final. En las prácticas de este curso trabajaremos principalmente con Media, Edit y Deliver.\nDaVinci guarda los proyectos en una base de datos interna. Es importante crear un proyecto nuevo al inicio de cada práctica y configurar correctamente la resolución (1920×1080) y la tasa de fotogramas (25 fps) antes de empezar a montar."
   },
   {
     "objectID": "index.html#adobe-premiere-pro",
     "href": "index.html#adobe-premiere-pro",
     "title": "Edición de Vídeo",
     "section": "Adobe Premiere Pro",
-    "text": "Adobe Premiere Pro\nAdobe Premiere Pro es el editor de vídeo estándar de la industria, integrado con el ecosistema Adobe Creative Cloud. A diferencia de DaVinci, guarda los proyectos como archivos .prproj en la carpeta que elijas, lo que facilita compartirlos y moverlos entre ordenadores.\nSu interfaz se divide en paneles: Project para organizar el material importado, Source Monitor para previsualizar clips antes de montarlos, Program Monitor para ver el resultado del timeline, y Timeline donde se construye el montaje. La exportación se hace desde File &gt; Export &gt; Media, con opción de enviar a Adobe Media Encoder para renderizar en segundo plano.\nPremiere es especialmente potente para trabajos que integran múltiples aplicaciones de Adobe, como gráficos de After Effects o correcciones de Photoshop directamente en el timeline."
+    "text": "Adobe Premiere Pro\nAdobe Premiere Pro es el editor de vídeo estándar de la industria, integrado con el ecosistema Adobe Creative Cloud. Guarda los proyectos como archivos .prproj en la carpeta que elijas, lo que facilita compartirlos entre ordenadores.\nSu interfaz se divide en paneles: Project para organizar el material, Source Monitor para previsualizar clips, Program Monitor para ver el resultado del timeline, y Timeline donde se construye el montaje. La exportación se hace desde File &gt; Export &gt; Media."
   },
   {
     "objectID": "index.html#prácticas",
     "href": "index.html#prácticas",
     "title": "Edición de Vídeo",
     "section": "Prácticas",
-    "text": "Prácticas\n\nPráctica 1 — Anuncio BMW\nMontaje de un anuncio de coches de aproximadamente 30 segundos usando brutos de interior y exterior de un BMW, al ritmo de una música. La práctica incluye la aplicación de un efecto de destello animado con keyframes sobre el packshot final con el logo BMW, y un crédito con el nombre del alumno.\nLos pasos están detallados para los dos programas en la misma página, con pestañas para cambiar entre DaVinci Resolve y Adobe Premiere Pro.\nIr a la Práctica 1"
+    "text": "Prácticas\n\nPráctica 1 — Anuncio BMW\nMontaje de un anuncio de coches de aproximadamente 30 segundos usando brutos de interior y exterior de un BMW, al ritmo de una música. La práctica incluye la aplicación de un efecto de destello animado con keyframes sobre el packshot final con el logo BMW, y un crédito con el nombre del alumno.\nLos pasos están detallados para los dos programas en la misma página.\nIr a la Práctica 1"
   },
   {
     "objectID": "index.html#material",
     "href": "index.html#material",
     "title": "Edición de Vídeo",
     "section": "Material",
-    "text": "Material\nLos archivos de cada práctica se distribuyen a través de la carpeta de la asignatura en los ordenadores del aula. No es necesario descargarlos externamente.\n\n\n\nArchivo\nTipo\nPráctica\n\n\n\n\nCAR CHASE - Car Exteriors.mp4\nVídeo · 1.68 GB\nPráctica 1\n\n\nCAR CHASE - Car Interiors_1.mp4\nVídeo · 685 MB\nPráctica 1\n\n\nCar Chase.m4a\nAudio · 368 KB\nPráctica 1\n\n\nCars_Logos_-_BMW.jpg\nImagen · 83 KB\nPráctica 1\n\n\n\n\n\n\n\n\n\nNote\n\n\n\nSi Car Chase.m4a no se importa correctamente en DaVinci o Premiere, convertirlo a MP3 con VLC antes de empezar. Ver Recursos para las instrucciones."
+    "text": "Material\nEl material de las prácticas está disponible para descarga en el siguiente enlace. Si ha caducado, buscarlo en la carpeta de la asignatura en los ordenadores del aula.\nDescargar material — Práctica 1\n\n\n\nArchivo\nTipo\n\n\n\n\nCAR CHASE - Car Exteriors.mp4\nVídeo · 1.68 GB\n\n\nCAR CHASE - Car Interiors_1.mp4\nVídeo · 685 MB\n\n\nCar Chase.m4a\nAudio\n\n\nCars_Logos_-_BMW.jpg\nImagen"
   }
 ]
